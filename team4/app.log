@@ -1,0 +1,486 @@
+2023-12-07 10:58:43 - PASS: Logged action into App5: retrieve_json
+2023-12-07 10:58:42 - PASS: Saved JSON payload to a file
+2023-12-07 10:58:43 - PASS: Logged action into App5: send_json_to_app2_success
+2023-12-07 10:58:43 - PASS: Logged action into App5: Received_JSON_from_App1
+2023-12-07 10:58:43 - PASS: Saved JSON payload and hash to a file
+Connected (version 2.0, client OpenSSH_8.9p1)
+Authentication (password) successful!
+[chan 0] Opened sftp connection (server version 3)
+[chan 0] sftp session closed.
+2023-12-07 10:58:43 - Failed to send data to App3 via SFTP: [Errno 2] No such file
+2023-12-07 10:58:54 - PASS: Logged action into App5: Failed_to_send_JSON_to_App3
+2023-12-07 11:05:57 - PASS: Logged action into App5: retrieve_json
+2023-12-07 11:05:57 - PASS: Saved JSON payload to a file
+2023-12-07 11:05:57 - PASS: Logged action into App5: send_json_to_app2_success
+2023-12-07 11:05:57 - PASS: Logged action into App5: Received_JSON_from_App1
+2023-12-07 11:05:57 - PASS: Saved JSON payload and hash to a file
+Connected (version 2.0, client OpenSSH_8.9p1)
+Authentication (password) successful!
+[chan 0] Opened sftp connection (server version 3)
+[chan 0] sftp session closed.
+2023-12-07 11:05:57 - Failed to send data to App3 via SFTP: [Errno 2] No such file
+2023-12-07 11:06:07 - PASS: Logged action into App5: Failed_to_send_JSON_to_App3
+2023-12-07 11:07:41 - PASS: Logged action into App5: retrieve_json
+2023-12-07 11:07:41 - PASS: Saved JSON payload to a file
+2023-12-07 11:07:41 - PASS: Logged action into App5: send_json_to_app2_success
+2023-12-07 11:07:41 - PASS: Logged action into App5: Received_JSON_from_App1
+2023-12-07 11:07:41 - PASS: Saved JSON payload and hash to a file
+Connected (version 2.0, client OpenSSH_8.9p1)
+Authentication (password) successful!
+[chan 0] Opened sftp connection (server version 3)
+2023-12-07 11:07:41 - PASS: Sent JSON payload and hash to App3 via SFTP
+2023-12-07 11:07:49 - PASS: Logged action into App5: Sent_JSON_to_App3
+[chan 0] sftp session closed.
+2023-12-07 11:08:11 - PASS: Logged action into App5: send_json_to_app2_success
+2023-12-07 11:08:25 - Failed to log action into App5: Failed to connect
+2023-12-07 11:08:25 - PASS: Logged action into App5: Test action
+2023-12-07 11:10:03 - Failed to log action into App5: Failed to connect
+2023-12-07 11:10:03 - PASS: Logged action into App5: Test action
+2023-12-07 11:10:21 - PASS: Logged action into App5: send_json_to_app2_success
+2023-12-07 11:12:13 - PASS: Logged action into App5: send_json_to_app2_success
+2023-12-07 11:12:53,132 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2023-12-07 11:12:53,201 - paramiko.transport - INFO - Authentication (password) failed.
+2023-12-07 11:12:53,202 - root - ERROR - 2023-12-07 11:12:53 - App3 encountered an error: Authentication failed.
+2023-12-07 11:13:53,137 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2023-12-07 11:13:53,426 - paramiko.transport - INFO - Authentication (password) successful!
+2023-12-07 11:13:53,426 - root - INFO - 2023-12-07 11:13:53 - PASS: Connected to SFTP server
+2023-12-07 11:13:53,958 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2023-12-07 11:13:53,958 - paramiko.transport.sftp - INFO - [chan 0] sftp session closed.
+2023-12-07 11:13:53,959 - root - ERROR - 2023-12-07 11:13:53 - App3 encountered an error: [Errno 2] No such file
+2023-12-07 11:16:05,592 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2023-12-07 11:16:05,836 - paramiko.transport - INFO - Authentication (password) successful!
+2023-12-07 11:16:05,836 - root - INFO - 2023-12-07 11:16:05 - PASS: Connected to SFTP server
+2023-12-07 11:16:06,374 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2023-12-07 11:16:06,374 - paramiko.transport.sftp - INFO - [chan 0] sftp session closed.
+2023-12-07 11:16:06,375 - root - ERROR - 2023-12-07 11:16:06 - App3 encountered an error: [Errno 2] No such file
+2023-12-07 11:18:51,092 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2023-12-07 11:18:51,341 - paramiko.transport - INFO - Authentication (password) successful!
+2023-12-07 11:18:51,341 - root - INFO - 2023-12-07 11:18:51 - PASS: Connected to SFTP server
+2023-12-07 11:18:51,893 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2023-12-07 11:18:51,893 - paramiko.transport.sftp - INFO - [chan 0] sftp session closed.
+2023-12-07 11:18:51,894 - root - ERROR - 2023-12-07 11:18:51 - App3 encountered an error: [Errno 2] No such file
+2023-12-07 11:22:07,086 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2023-12-07 11:22:07,332 - paramiko.transport - INFO - Authentication (password) successful!
+2023-12-07 11:22:07,332 - root - INFO - 2023-12-07 11:22:07 - PASS: Connected to SFTP server
+2023-12-07 11:22:07,842 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2023-12-07 11:22:07,843 - paramiko.transport.sftp - INFO - [chan 0] sftp session closed.
+2023-12-07 11:22:07,843 - root - ERROR - 2023-12-07 11:22:07 - App3 encountered an error: [Errno 2] No such file
+2023-12-07 11:23:39,200 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2023-12-07 11:23:39,444 - paramiko.transport - INFO - Authentication (password) successful!
+2023-12-07 11:23:39,444 - root - INFO - 2023-12-07 11:23:39 - PASS: Connected to SFTP server
+2023-12-07 11:23:40,027 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2023-12-07 11:23:40,033 - root - INFO - 2023-12-07 11:23:40 - PASS: Received ./app2_payload.json from SFTP server and saved as app2_payload.json
+2023-12-07 11:23:40,034 - root - INFO - 2023-12-07 11:23:40 - PASS: Payload integrity verified: Hash matches.
+2023-12-07 11:23:40,041 - root - INFO - 2023-12-07 11:23:40 - PASS: Logged action into App5: Sent_payload_via_email
+2023-12-07 11:26:33,803 - paramiko.transport.sftp - INFO - [chan 0] sftp session closed.
+2023-12-07 11:26:33,803 - root - INFO - 2023-12-07 11:26:33 - PASS: Closing SFTP connection
+2023-12-07 11:27:10,887 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2023-12-07 11:27:11,131 - paramiko.transport - INFO - Authentication (password) successful!
+2023-12-07 11:27:11,132 - root - INFO - 2023-12-07 11:27:11 - PASS: Connected to SFTP server
+2023-12-07 11:27:11,650 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2023-12-07 11:27:11,669 - root - INFO - 2023-12-07 11:27:11 - PASS: Received ./app2_payload.json from SFTP server and saved as app2_payload.json
+2023-12-07 11:27:11,669 - root - INFO - 2023-12-07 11:27:11 - PASS: Payload integrity verified: Hash matches.
+2023-12-07 11:27:11,676 - root - INFO - 2023-12-07 11:27:11 - PASS: Logged action into App5: Sent_payload_via_email
+2023-12-07 11:28:03,063 - paramiko.transport.sftp - INFO - [chan 0] sftp session closed.
+2023-12-07 11:28:03,063 - root - INFO - 2023-12-07 11:28:03 - PASS: Closing SFTP connection
+2023-12-07 11:33:21,135 - root - INFO - 2023-12-07 11:33:21 - PASS: Connected to SFTP server
+2023-12-07 11:33:21,135 - root - INFO - 2023-12-07 11:33:21 - PASS: Received ./app2_payload.json from SFTP server and saved as app2_payload.json
+2023-12-07 11:33:21,136 - root - INFO - 2023-12-07 11:33:21 - PASS: Payload integrity verification failed: Hash does not match.
+2023-12-07 11:33:21,136 - root - INFO - 2023-12-07 11:33:21 - PASS: Closing SFTP connection
+2023-12-07 11:33:21,140 - root - INFO - 2023-12-07 11:33:21 - PASS: Connected to SFTP server
+2023-12-07 11:33:21,140 - root - ERROR - 2023-12-07 11:33:21 - App3 encountered an error: File not found
+2023-12-07 11:33:21,143 - root - INFO - 2023-12-07 11:33:21 - PASS: Connected to SFTP server
+2023-12-07 11:33:21,145 - root - INFO - 2023-12-07 11:33:21 - PASS: Received ./app2_payload.json from SFTP server and saved as app2_payload.json
+2023-12-07 11:33:21,146 - root - ERROR - 2023-12-07 11:33:21 - App3 encountered an error: the JSON object must be str, bytes or bytearray, not MagicMock
+2023-12-07 11:33:21,147 - __main__ - ERROR - Failed to log action into App5: Test error
+2023-12-07 11:33:21,149 - __main__ - INFO - PASS: Logged action into App5: test_action
+2023-12-07 11:37:44,712 - root - INFO - 2023-12-07 11:37:44 - Payload sent via email to team members.
+2023-12-07 11:37:44,724 - root - INFO - 2023-12-07 11:37:44 - PASS: Logged action into App5: Sent_payload_via_email
+2023-12-07 11:37:44,725 - __main__ - ERROR - Failed to log action into App5: Test error
+2023-12-07 11:37:44,726 - __main__ - INFO - PASS: Logged action into App5: test_action
+2023-12-07 11:39:10,748 - root - INFO - 2023-12-07 11:39:10 - PASS: Connected to SFTP server
+2023-12-07 11:39:10,748 - root - INFO - 2023-12-07 11:39:10 - PASS: Received ./app2_payload.json from SFTP server and saved as app2_payload.json
+2023-12-07 11:39:10,749 - root - INFO - 2023-12-07 11:39:10 - PASS: Payload integrity verification failed: Hash does not match.
+2023-12-07 11:39:10,750 - root - INFO - 2023-12-07 11:39:10 - PASS: Closing SFTP connection
+2023-12-07 11:39:10,755 - root - INFO - 2023-12-07 11:39:10 - PASS: Connected to SFTP server
+2023-12-07 11:39:10,756 - root - ERROR - 2023-12-07 11:39:10 - App3 encountered an error: File not found
+2023-12-07 11:39:10,760 - root - INFO - 2023-12-07 11:39:10 - PASS: Connected to SFTP server
+2023-12-07 11:39:10,762 - root - INFO - 2023-12-07 11:39:10 - PASS: Received ./app2_payload.json from SFTP server and saved as app2_payload.json
+2023-12-07 11:39:10,764 - root - ERROR - 2023-12-07 11:39:10 - App3 encountered an error: the JSON object must be str, bytes or bytearray, not MagicMock
+2023-12-07 11:39:10,767 - __main__ - ERROR - Failed to log action into App5: Test error
+2023-12-07 11:39:10,768 - __main__ - INFO - PASS: Logged action into App5: test_action
+2023-12-07 11:41:24,324 - root - INFO - 2023-12-07 11:41:24 - PASS: Connected to SFTP server
+2023-12-07 11:41:24,325 - root - INFO - 2023-12-07 11:41:24 - PASS: Received ./app2_payload.json from SFTP server and saved as app2_payload.json
+2023-12-07 11:41:24,325 - root - INFO - 2023-12-07 11:41:24 - PASS: Payload integrity verification failed: Hash does not match.
+2023-12-07 11:41:24,326 - root - INFO - 2023-12-07 11:41:24 - PASS: Closing SFTP connection
+2023-12-07 11:41:24,329 - root - INFO - 2023-12-07 11:41:24 - PASS: Connected to SFTP server
+2023-12-07 11:41:24,329 - root - ERROR - 2023-12-07 11:41:24 - App3 encountered an error: File not found
+2023-12-07 11:41:24,332 - root - INFO - 2023-12-07 11:41:24 - PASS: Connected to SFTP server
+2023-12-07 11:41:24,333 - root - INFO - 2023-12-07 11:41:24 - PASS: Received ./app2_payload.json from SFTP server and saved as app2_payload.json
+2023-12-07 11:41:24,334 - root - ERROR - 2023-12-07 11:41:24 - App3 encountered an error: the JSON object must be str, bytes or bytearray, not MagicMock
+2023-12-07 11:41:24,336 - __main__ - ERROR - Failed to log action into App5: Test error
+2023-12-07 11:41:24,337 - __main__ - INFO - PASS: Logged action into App5: test_action
+2023-12-07 11:42:33,643 - root - INFO - 2023-12-07 11:42:33 - PASS: Connected to SFTP server
+2023-12-07 11:42:33,643 - root - INFO - 2023-12-07 11:42:33 - PASS: Received ./app2_payload.json from SFTP server and saved as app2_payload.json
+2023-12-07 11:42:33,644 - root - INFO - 2023-12-07 11:42:33 - PASS: Payload integrity verification failed: Hash does not match.
+2023-12-07 11:42:33,644 - root - INFO - 2023-12-07 11:42:33 - PASS: Closing SFTP connection
+2023-12-07 11:42:33,648 - root - INFO - 2023-12-07 11:42:33 - PASS: Connected to SFTP server
+2023-12-07 11:42:33,648 - root - ERROR - 2023-12-07 11:42:33 - App3 encountered an error: File not found
+2023-12-07 11:42:33,651 - root - INFO - 2023-12-07 11:42:33 - PASS: Connected to SFTP server
+2023-12-07 11:42:33,652 - root - INFO - 2023-12-07 11:42:33 - PASS: Received ./app2_payload.json from SFTP server and saved as app2_payload.json
+2023-12-07 11:42:33,653 - root - ERROR - 2023-12-07 11:42:33 - App3 encountered an error: the JSON object must be str, bytes or bytearray, not MagicMock
+2023-12-07 11:42:33,655 - __main__ - ERROR - Failed to log action into App5: Test error
+2023-12-07 11:42:33,656 - __main__ - INFO - PASS: Logged action into App5: test_action
+2023-12-07 11:47:50,674 - root - INFO - 2023-12-07 11:47:50 - PASS: Connected to SFTP server
+2023-12-07 11:47:50,674 - root - INFO - 2023-12-07 11:47:50 - PASS: Received ./app2_payload.json from SFTP server and saved as app2_payload.json
+2023-12-07 11:47:50,675 - root - INFO - 2023-12-07 11:47:50 - PASS: Payload integrity verification failed: Hash does not match.
+2023-12-07 11:47:50,675 - root - INFO - 2023-12-07 11:47:50 - PASS: Closing SFTP connection
+2023-12-07 11:47:50,679 - root - INFO - 2023-12-07 11:47:50 - PASS: Connected to SFTP server
+2023-12-07 11:47:50,679 - root - ERROR - 2023-12-07 11:47:50 - App3 encountered an error: File not found
+2023-12-07 11:47:50,681 - root - INFO - 2023-12-07 11:47:50 - PASS: Connected to SFTP server
+2023-12-07 11:47:50,683 - root - INFO - 2023-12-07 11:47:50 - PASS: Received ./app2_payload.json from SFTP server and saved as app2_payload.json
+2023-12-07 11:47:50,684 - root - ERROR - 2023-12-07 11:47:50 - App3 encountered an error: the JSON object must be str, bytes or bytearray, not MagicMock
+2023-12-07 11:47:50,685 - __main__ - ERROR - Failed to log action into App5: Test error
+2023-12-07 11:47:50,686 - __main__ - INFO - PASS: Logged action into App5: test_action
+2023-12-07 11:49:37 - PASS: Logged action into App5: send_json_to_app2_success
+2023-12-07 11:49:43 - Failed to log action into App5: Failed to connect
+2023-12-07 11:49:43 - PASS: Logged action into App5: Test action
+2023-12-07 11:51:25,595 - root - INFO - 2023-12-07 11:51:25 - Payload sent via email to team members.
+2023-12-07 11:51:25,601 - root - INFO - 2023-12-07 11:51:25 - PASS: Logged action into App5: Sent_payload_via_email
+2023-12-07 11:51:25,602 - __main__ - ERROR - Failed to log action into App5: Test error
+2023-12-07 11:51:25,603 - __main__ - INFO - PASS: Logged action into App5: test_action
+2023-12-07 12:05:05 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/retrieve_json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbb788d9d20>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-12-07 12:05:04 - PASS: Saved JSON payload to a file
+2023-12-07 12:05:05 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/send_json_to_app2_success (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fbb788d98d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-12-07 12:05:05 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/Received_JSON_from_App1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f38032d2590>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-12-07 12:05:05 - PASS: Saved JSON payload and hash to a file
+Connected (version 2.0, client OpenSSH_8.9p1)
+Authentication (password) successful!
+[chan 0] Opened sftp connection (server version 3)
+2023-12-07 12:05:05 - PASS: Sent JSON payload and hash to App3 via SFTP
+2023-12-07 12:05:13 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/Sent_JSON_to_App3 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f38032d3850>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[chan 0] sftp session closed.
+2023-12-07 12:09:25,694 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2023-12-07 12:09:25,936 - paramiko.transport - INFO - Authentication (password) successful!
+2023-12-07 12:09:25,936 - root - INFO - 2023-12-07 12:09:25 - PASS: Connected to SFTP server
+2023-12-07 12:09:26,478 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2023-12-07 12:09:26,482 - root - INFO - 2023-12-07 12:09:26 - PASS: Received ./app2_payload.json from SFTP server and saved as app2_payload.json
+2023-12-07 12:09:26,483 - root - INFO - 2023-12-07 12:09:26 - PASS: Payload integrity verified: Hash matches.
+2023-12-07 12:09:26,485 - root - ERROR - 2023-12-07 12:09:26 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/Sent_payload_via_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9aaa248dc0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-12-07 12:10:07,736 - paramiko.transport.sftp - INFO - [chan 0] sftp session closed.
+2023-12-07 12:10:07,736 - root - INFO - 2023-12-07 12:10:07 - PASS: Closing SFTP connection
+2023-12-07 12:19:23 - PASS: Logged action into App5: send_json_to_app2_success
+2023-12-07 12:46:18 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/retrieve_json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb0b94b5d20>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-12-07 12:46:18 - PASS: Saved JSON payload to a file
+2023-12-07 12:46:18 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/send_json_to_app2_success (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb0b94b58d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-12-07 12:46:18 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/Received_JSON_from_App1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f371aa8a740>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-12-07 12:46:18 - PASS: Saved JSON payload and hash to a file
+Connected (version 2.0, client OpenSSH_8.9p1)
+Authentication (password) successful!
+[chan 0] Opened sftp connection (server version 3)
+2023-12-07 12:46:18 - PASS: Sent JSON payload and hash to App3 via SFTP
+2023-12-07 12:46:25 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/Sent_JSON_to_App3 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f371aa8ba00>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[chan 0] sftp session closed.
+2023-12-07 13:50:13 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/retrieve_json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7efccc1f9d20>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-12-07 13:50:12 - PASS: Saved JSON payload to a file
+2023-12-07 13:50:13 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/Received_JSON_from_App1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4996bc24d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-12-07 13:50:13 - PASS: Saved JSON payload and hash to a file
+2023-12-07 13:50:13 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/send_json_to_app2_success (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7efccc1f98d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+Connected (version 2.0, client OpenSSH_8.9p1)
+Authentication (password) successful!
+[chan 0] Opened sftp connection (server version 3)
+2023-12-07 13:50:13 - PASS: Sent JSON payload and hash to App3 via SFTP
+2023-12-07 13:50:22 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/Sent_JSON_to_App3 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4996bc3790>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[chan 0] sftp session closed.
+2023-12-07 13:52:52 - Failed to log action into App5: Failed to connect
+2023-12-07 13:52:52 - PASS: Logged action into App5: Test action
+2023-12-07 13:55:22 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/retrieve_json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8437651d20>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-12-07 13:55:21 - PASS: Saved JSON payload to a file
+2023-12-07 13:55:22 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/Received_JSON_from_App1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb44c09ab60>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-12-07 13:55:22 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/send_json_to_app2_success (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f84376518d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-12-07 13:55:22 - PASS: Saved JSON payload and hash to a file
+Connected (version 2.0, client OpenSSH_8.9p1)
+Authentication (password) successful!
+[chan 0] Opened sftp connection (server version 3)
+2023-12-07 13:55:22 - PASS: Sent JSON payload and hash to App3 via SFTP
+2023-12-07 13:55:33 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/Sent_JSON_to_App3 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb44c09be20>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[chan 0] sftp session closed.
+2023-12-07 14:50:24,228 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2023-12-07 14:50:24,472 - paramiko.transport - INFO - Authentication (password) successful!
+2023-12-07 14:50:24,472 - root - INFO - 2023-12-07 14:50:24 - PASS: Connected to SFTP server
+2023-12-07 14:50:25,035 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2023-12-07 14:50:25,042 - root - INFO - 2023-12-07 14:50:25 - PASS: Received app2_payload.json from SFTP server and saved as app3_payload.json
+2023-12-07 14:50:25,043 - root - INFO - 2023-12-07 14:50:25 - PASS: Payload integrity verified: Hash matches.
+2023-12-07 14:50:25,045 - root - ERROR - 2023-12-07 14:50:25 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/Sent_payload_via_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6848214700>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-12-07 14:50:32,053 - paramiko.transport.sftp - INFO - [chan 0] sftp session closed.
+2023-12-07 14:51:57,699 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2023-12-07 14:51:57,851 - paramiko.transport - INFO - Authentication (password) successful!
+2023-12-07 14:51:57,851 - root - INFO - 2023-12-07 14:51:57 - PASS: Connected to SFTP server
+2023-12-07 14:51:58,353 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2023-12-07 14:51:58,370 - root - INFO - 2023-12-07 14:51:58 - PASS: Received app2_payload.json from SFTP server and saved as app3_payload.json
+2023-12-07 14:51:58,371 - root - INFO - 2023-12-07 14:51:58 - PASS: Payload integrity verified: Hash matches.
+2023-12-07 14:51:58,373 - root - ERROR - 2023-12-07 14:51:58 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/Sent_payload_via_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3983680700>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-12-07 14:52:01,724 - paramiko.transport.sftp - INFO - [chan 0] sftp session closed.
+2023-12-07 14:54:01,686 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2023-12-07 14:54:01,839 - paramiko.transport - INFO - Authentication (password) successful!
+2023-12-07 14:54:01,839 - root - INFO - 2023-12-07 14:54:01 - PASS: Connected to SFTP server
+2023-12-07 14:54:02,381 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2023-12-07 14:54:02,400 - root - INFO - 2023-12-07 14:54:02 - PASS: Received app2_payload.json from SFTP server and saved as app3_payload.json
+2023-12-07 14:54:02,401 - root - INFO - 2023-12-07 14:54:02 - PASS: Payload integrity verified: Hash matches.
+2023-12-07 14:54:02,403 - root - ERROR - 2023-12-07 14:54:02 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/Sent_payload_via_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f51c6e14700>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-12-07 14:54:04,934 - paramiko.transport.sftp - INFO - [chan 0] sftp session closed.
+2023-12-07 15:05:20,434 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2023-12-07 15:05:20,866 - paramiko.transport - INFO - Authentication (password) successful!
+2023-12-07 15:05:20,866 - root - INFO - 2023-12-07 15:05:20 - PASS: Connected to SFTP server
+2023-12-07 15:05:21,364 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2023-12-07 15:05:21,374 - root - INFO - 2023-12-07 15:05:21 - PASS: Received app2_payload.json from SFTP server and saved as app3_payload.json
+2023-12-07 15:05:21,375 - root - INFO - 2023-12-07 15:05:21 - PASS: Payload integrity verified: Hash matches.
+2023-12-07 15:05:21,377 - root - ERROR - 2023-12-07 15:05:21 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/Sent_payload_via_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffb18514880>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-12-07 15:05:44,532 - paramiko.transport.sftp - INFO - [chan 0] sftp session closed.
+2023-12-07 15:05:44,532 - root - INFO - 2023-12-07 15:05:44 - PASS: Closing SFTP connection
+2023-12-07 15:06:16,682 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2023-12-07 15:06:22,692 - paramiko.transport - INFO - Authentication (password) failed.
+2023-12-07 15:06:22,692 - root - ERROR - 2023-12-07 15:06:22 - App3 encountered an error: Authentication failed.
+2023-12-07 15:06:34,195 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2023-12-07 15:06:34,462 - paramiko.transport - INFO - Authentication (password) successful!
+2023-12-07 15:06:34,463 - root - INFO - 2023-12-07 15:06:34 - PASS: Connected to SFTP server
+2023-12-07 15:06:34,997 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2023-12-07 15:06:35,005 - root - INFO - 2023-12-07 15:06:35 - PASS: Received app2_payload.json from SFTP server and saved as app3_payload.json
+2023-12-07 15:06:35,006 - root - INFO - 2023-12-07 15:06:35 - PASS: Payload integrity verified: Hash matches.
+2023-12-07 15:06:35,008 - root - ERROR - 2023-12-07 15:06:35 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/Sent_payload_via_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3800178880>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-12-07 15:06:52,073 - paramiko.transport.sftp - INFO - [chan 0] sftp session closed.
+2023-12-07 15:10:00,329 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2023-12-07 15:10:00,581 - paramiko.transport - INFO - Authentication (password) successful!
+2023-12-07 15:10:00,581 - root - INFO - 2023-12-07 15:10:00 - PASS: Connected to SFTP server
+2023-12-07 15:10:01,094 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2023-12-07 15:10:01,103 - root - INFO - 2023-12-07 15:10:01 - PASS: Received app2_payload.json from SFTP server and saved as app3_payload.json
+2023-12-07 15:10:01,104 - root - INFO - 2023-12-07 15:10:01 - PASS: Payload integrity verified: Hash matches.
+2023-12-07 15:10:01,107 - root - ERROR - 2023-12-07 15:10:01 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/Sent_payload_via_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f705a8ac880>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-12-07 15:10:02,424 - paramiko.transport.sftp - INFO - [chan 0] sftp session closed.
+2023-12-07 15:10:27,841 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2023-12-07 15:10:28,083 - paramiko.transport - INFO - Authentication (password) successful!
+2023-12-07 15:10:28,084 - root - INFO - 2023-12-07 15:10:28 - PASS: Connected to SFTP server
+2023-12-07 15:10:28,229 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2023-12-07 15:10:28,236 - root - INFO - 2023-12-07 15:10:28 - PASS: Received app2_payload.json from SFTP server and saved as app3_payload.json
+2023-12-07 15:10:28,237 - root - INFO - 2023-12-07 15:10:28 - PASS: Payload integrity verified: Hash matches.
+2023-12-07 15:10:28,240 - root - ERROR - 2023-12-07 15:10:28 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/Sent_payload_via_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6531480880>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-12-07 15:10:49,097 - paramiko.transport.sftp - INFO - [chan 0] sftp session closed.
+2023-12-07 15:10:49,098 - root - INFO - 2023-12-07 15:10:49 - PASS: Closing SFTP connection
+2023-12-07 15:17:42,003 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2023-12-07 15:17:42,290 - paramiko.transport - INFO - Authentication (password) successful!
+2023-12-07 15:17:42,290 - root - INFO - 2023-12-07 15:17:42 - PASS: Connected to SFTP server
+2023-12-07 15:17:42,809 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2023-12-07 15:17:42,817 - root - INFO - 2023-12-07 15:17:42 - PASS: Received app2_payload.json from SFTP server and saved as app3_payload.json
+2023-12-07 15:17:42,817 - root - INFO - 2023-12-07 15:17:42 - PASS: Payload integrity verified: Hash matches.
+2023-12-07 15:17:42,817 - paramiko.transport.sftp - INFO - [chan 0] sftp session closed.
+2023-12-07 15:17:42,817 - root - ERROR - 2023-12-07 15:17:42 - App3 encountered an error: the JSON object must be str, bytes or bytearray, not dict
+2023-12-07 15:31:48,854 - root - INFO - 2023-12-07 15:31:48 - Payload sent via email to team members.
+2023-12-07 15:31:48,856 - root - ERROR - 2023-12-07 15:31:48 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/Sent_payload_via_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe3c3ac1270>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-12-07 15:31:48,857 - __main__ - ERROR - Failed to log action into App5: Test error
+2023-12-07 15:31:48,859 - __main__ - INFO - PASS: Logged action into App5: test_action
+2023-12-07 15:32:03,574 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2023-12-07 15:32:03,858 - paramiko.transport - INFO - Authentication (password) successful!
+2023-12-07 15:32:03,858 - root - INFO - 2023-12-07 15:32:03 - PASS: Connected to SFTP server
+2023-12-07 15:32:04,471 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2023-12-07 15:32:04,483 - root - INFO - 2023-12-07 15:32:04 - PASS: Received app2_payload.json from SFTP server and saved as app3_payload.json
+2023-12-07 15:32:04,485 - root - INFO - 2023-12-07 15:32:04 - PASS: Payload integrity verified: Hash matches.
+2023-12-07 15:32:04,488 - root - ERROR - 2023-12-07 15:32:04 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/Sent_payload_via_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe4b3610880>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-12-07 15:32:06,118 - paramiko.transport.sftp - INFO - [chan 0] sftp session closed.
+2023-12-08 07:31:45,201 - root - INFO - 2023-12-08 07:31:45 - Payload sent via email to team members.
+2023-12-08 07:31:45,203 - root - ERROR - 2023-12-08 07:31:45 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/Sent_payload_via_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7efdc5b99240>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-12-08 07:31:45,205 - __main__ - ERROR - Failed to log action into App5: Test error
+2023-12-08 07:31:45,206 - __main__ - INFO - PASS: Logged action into App5: test_action
+2023-12-08 07:32:50,841 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2023-12-08 07:32:51,088 - paramiko.transport - INFO - Authentication (password) successful!
+2023-12-08 07:32:51,088 - root - INFO - 2023-12-08 07:32:51 - PASS: Connected to SFTP server
+2023-12-08 07:32:51,577 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2023-12-08 07:32:51,581 - root - INFO - 2023-12-08 07:32:51 - PASS: Received app2_payload.json from SFTP server and saved as app3_payload.json
+2023-12-08 07:32:51,582 - root - INFO - 2023-12-08 07:32:51 - PASS: Payload integrity verified: Hash matches.
+2023-12-08 07:32:51,589 - root - ERROR - 2023-12-08 07:32:51 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/Sent_payload_via_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f98acb708b0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-12-08 07:32:58,750 - paramiko.transport.sftp - INFO - [chan 0] sftp session closed.
+2023-12-08 08:22:40 - PASS: Logged action into App5: retrieve_json
+2023-12-08 08:22:40 - PASS: Saved JSON payload to a file
+2023-12-08 08:22:40 - PASS: Logged action into App5: send_json_to_app2_success
+2023-12-08 08:22:40 - PASS: Logged action into App5: Received_JSON_from_App1
+2023-12-08 08:22:40 - PASS: Saved JSON payload and hash to a file
+Connected (version 2.0, client OpenSSH_8.9p1)
+Authentication (password) successful!
+[chan 0] Opened sftp connection (server version 3)
+2023-12-08 08:22:40 - PASS: Sent JSON payload and hash to App3 via SFTP
+2023-12-08 08:22:50 - PASS: Logged action into App5: Sent_JSON_to_App3
+[chan 0] sftp session closed.
+2023-12-08 08:24:04,352 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2023-12-08 08:24:04,598 - paramiko.transport - INFO - Authentication (password) successful!
+2023-12-08 08:24:04,598 - root - INFO - 2023-12-08 08:24:04 - PASS: Connected to SFTP server
+2023-12-08 08:24:05,097 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2023-12-08 08:24:05,105 - root - INFO - 2023-12-08 08:24:05 - PASS: Received app2_payload.json from SFTP server and saved as app3_payload.json
+2023-12-08 08:24:05,105 - root - INFO - 2023-12-08 08:24:05 - PASS: Payload integrity verified: Hash matches.
+2023-12-08 08:24:05,111 - root - INFO - 2023-12-08 08:24:05 - PASS: Logged action into App5: Sent_payload_via_email
+2023-12-08 08:24:17,813 - paramiko.transport.sftp - INFO - [chan 0] sftp session closed.
+2023-12-08 08:27:05,812 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2023-12-08 08:27:06,056 - paramiko.transport - INFO - Authentication (password) successful!
+2023-12-08 08:27:06,057 - root - INFO - 2023-12-08 08:27:06 - PASS: Connected to SFTP server
+2023-12-08 08:27:06,553 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2023-12-08 08:27:06,556 - root - INFO - 2023-12-08 08:27:06 - PASS: Received app2_payload.json from SFTP server and saved as app3_payload.json
+2023-12-08 08:27:06,557 - root - INFO - 2023-12-08 08:27:06 - PASS: Payload integrity verified: Hash matches.
+2023-12-08 08:27:06,558 - root - INFO - 2023-12-08 08:27:06 - PASS: Saved decoded payload to app3_payload.json
+2023-12-08 08:27:14,961 - root - INFO - 2023-12-08 08:27:14 - Decoded payload sent via email to team members.
+2023-12-08 08:27:14,967 - root - ERROR - 2023-12-08 08:27:14 - Failed to log action into App5: 404 Client Error: NOT FOUND for url: http://localhost:5000/log/Sent_decoded_payload_via_email
+2023-12-08 08:27:35,880 - paramiko.transport.sftp - INFO - [chan 0] sftp session closed.
+2023-12-08 08:29:33,338 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2023-12-08 08:29:33,584 - paramiko.transport - INFO - Authentication (password) successful!
+2023-12-08 08:29:33,584 - root - INFO - 2023-12-08 08:29:33 - PASS: Connected to SFTP server
+2023-12-08 08:29:34,113 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2023-12-08 08:29:34,116 - root - INFO - 2023-12-08 08:29:34 - PASS: Received app2_payload.json from SFTP server and saved as app3_payload.json
+2023-12-08 08:29:34,117 - root - INFO - 2023-12-08 08:29:34 - PASS: Payload integrity verified: Hash matches.
+2023-12-08 08:29:34,118 - root - INFO - 2023-12-08 08:29:34 - PASS: Saved decoded payload to app3_payload.json
+2023-12-08 08:29:45,807 - root - INFO - 2023-12-08 08:29:45 - Decoded payload sent via email to team members.
+2023-12-08 08:29:45,812 - root - ERROR - 2023-12-08 08:29:45 - Failed to log action into App5: 404 Client Error: NOT FOUND for url: http://localhost:5000/log/Sent_decoded_payload_via_email
+2023-12-08 08:37:13,606 - paramiko.transport.sftp - INFO - [chan 0] sftp session closed.
+2023-12-08 08:37:45,099 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2023-12-08 08:37:45,343 - paramiko.transport - INFO - Authentication (password) successful!
+2023-12-08 08:37:45,344 - root - INFO - 2023-12-08 08:37:45 - PASS: Connected to SFTP server
+2023-12-08 08:37:45,837 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2023-12-08 08:37:45,840 - root - INFO - 2023-12-08 08:37:45 - PASS: Received app2_payload.json from SFTP server and saved as app3_payload.json
+2023-12-08 08:37:45,841 - root - INFO - 2023-12-08 08:37:45 - PASS: Payload integrity verified: Hash matches.
+2023-12-08 08:37:45,842 - root - INFO - 2023-12-08 08:37:45 - PASS: Saved decoded payload to app3_payload.json
+2023-12-08 08:37:52,741 - root - INFO - 2023-12-08 08:37:52 - Decoded payload sent via email to team members.
+2023-12-08 08:37:52,744 - root - ERROR - 2023-12-08 08:37:52 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/Sent_decoded_payload_via_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f00de905d80>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-12-08 08:38:15,266 - paramiko.transport.sftp - INFO - [chan 0] sftp session closed.
+2023-12-08 08:39:02,936 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2023-12-08 08:39:03,180 - paramiko.transport - INFO - Authentication (password) successful!
+2023-12-08 08:39:03,180 - root - INFO - 2023-12-08 08:39:03 - PASS: Connected to SFTP server
+2023-12-08 08:39:03,662 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2023-12-08 08:39:03,670 - root - INFO - 2023-12-08 08:39:03 - PASS: Received app2_payload.json from SFTP server and saved as app3_payload.json
+2023-12-08 08:39:03,671 - root - INFO - 2023-12-08 08:39:03 - PASS: Payload integrity verified: Hash matches.
+2023-12-08 08:39:03,671 - root - INFO - 2023-12-08 08:39:03 - PASS: Saved decoded payload to app3_payload.json
+2023-12-08 08:39:10,123 - root - INFO - 2023-12-08 08:39:10 - Decoded payload sent via email to team members.
+2023-12-08 08:39:10,132 - root - INFO - 2023-12-08 08:39:10 - PASS: Logged action into App5: Sent_decoded_payload_via_email
+2023-12-08 08:45:52,845 - paramiko.transport.sftp - INFO - [chan 0] sftp session closed.
+2023-12-08 08:49:10 - PASS: Logged action into App5: retrieve_json
+2023-12-08 08:49:09 - PASS: Saved JSON payload to a file
+2023-12-08 08:49:10 - PASS: Logged action into App5: send_json_to_app2_success
+2023-12-08 08:49:10 - PASS: Logged action into App5: Received_JSON_from_App1
+2023-12-08 08:49:10 - PASS: Saved JSON payload and hash to a file
+Connected (version 2.0, client OpenSSH_8.9p1)
+Authentication (password) successful!
+[chan 0] Opened sftp connection (server version 3)
+2023-12-08 08:49:10 - PASS: Sent JSON payload and hash to App3 via SFTP
+2023-12-08 08:49:21 - PASS: Logged action into App5: Sent_JSON_to_App3
+[chan 0] sftp session closed.
+2023-12-08 08:49:54,509 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2023-12-08 08:49:54,752 - paramiko.transport - INFO - Authentication (password) successful!
+2023-12-08 08:49:54,753 - root - INFO - 2023-12-08 08:49:54 - PASS: Connected to SFTP server
+2023-12-08 08:49:54,980 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2023-12-08 08:49:54,984 - root - INFO - 2023-12-08 08:49:54 - PASS: Received app2_payload.json from SFTP server and saved as app3_payload.json
+2023-12-08 08:49:54,984 - root - INFO - 2023-12-08 08:49:54 - PASS: Payload integrity verified: Hash matches.
+2023-12-08 08:49:54,985 - root - INFO - 2023-12-08 08:49:54 - PASS: Saved decoded payload to app3_payload.json
+2023-12-08 08:50:15,887 - root - INFO - 2023-12-08 08:50:15 - Decoded payload sent via email to team members.
+2023-12-08 08:50:15,893 - root - INFO - 2023-12-08 08:50:15 - PASS: Logged action into App5: Sent_decoded_payload_via_email
+2023-12-08 08:50:27,997 - paramiko.transport.sftp - INFO - [chan 0] sftp session closed.
+2023-12-08 08:50:27,997 - root - INFO - 2023-12-08 08:50:27 - PASS: Closing SFTP connection
+2023-12-08 08:53:10 - PASS: Logged action into App5: send_json_to_app2_success
+2023-12-08 08:53:19 - Failed to log action into App5: Failed to connect
+2023-12-08 08:53:19 - PASS: Logged action into App5: Test action
+2023-12-08 08:53:24,477 - __main__ - ERROR - Failed to log action into App5: Test error
+2023-12-08 08:53:24,478 - __main__ - INFO - PASS: Logged action into App5: test_action
+2023-12-08 08:55:08,406 - root - INFO - 2023-12-08 08:55:08 - Decoded payload sent via email to team members.
+2023-12-08 08:55:08,408 - root - ERROR - 2023-12-08 08:55:08 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/Sent_decoded_payload_via_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9b4da19210>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-12-08 08:55:08,409 - __main__ - ERROR - Failed to log action into App5: Test error
+2023-12-08 08:55:08,410 - __main__ - INFO - PASS: Logged action into App5: test_action
+2023-12-08 09:05:33 - PASS: Logged action into App5: send_json_to_app2_success
+2023-12-08 09:10:38 - Failed to log action into App5: Failed to connect
+2023-12-08 09:10:38 - PASS: Logged action into App5: Test action
+2023-12-08 09:12:15,263 - root - INFO - 2023-12-08 09:12:15 - Decoded payload sent via email to team members.
+2023-12-08 09:12:15,266 - root - ERROR - 2023-12-08 09:12:15 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/Sent_decoded_payload_via_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5c28bc9270>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-12-08 09:12:15,267 - __main__ - ERROR - Failed to log action into App5: Test error
+2023-12-08 09:12:15,268 - __main__ - INFO - PASS: Logged action into App5: test_action
+2023-12-08 09:31:39,047 - root - INFO - 2023-12-08 09:31:39 - Decoded payload sent via email to team members.
+2023-12-08 09:31:39,051 - root - ERROR - 2023-12-08 09:31:39 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/Sent_decoded_payload_via_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f778b1c5210>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-12-08 09:31:39,054 - __main__ - ERROR - Failed to log action into App5: Test error
+2023-12-08 09:31:39,055 - __main__ - INFO - PASS: Logged action into App5: test_action
+2023-12-08 09:34:14,855 - root - INFO - 2023-12-08 09:34:14 - Decoded payload sent via email to team members.
+2023-12-08 09:34:14,859 - root - ERROR - 2023-12-08 09:34:14 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/Sent_decoded_payload_via_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0139ec9210>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-12-08 09:34:14,860 - __main__ - ERROR - Failed to log action into App5: Test error
+2023-12-08 09:34:14,861 - __main__ - INFO - PASS: Logged action into App5: test_action
+2023-12-08 09:35:49,372 - root - INFO - 2023-12-08 09:35:49 - Decoded payload sent via email to team members.
+2023-12-08 09:35:49,374 - root - ERROR - 2023-12-08 09:35:49 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/Sent_decoded_payload_via_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f52ee225210>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-12-08 09:35:49,375 - __main__ - ERROR - Failed to log action into App5: Test error
+2023-12-08 09:35:49,377 - __main__ - INFO - PASS: Logged action into App5: test_action
+2023-12-08 09:37:13,263 - root - INFO - 2023-12-08 09:37:13 - Decoded payload sent via email to team members.
+2023-12-08 09:37:13,265 - root - ERROR - 2023-12-08 09:37:13 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/Sent_decoded_payload_via_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9434a99210>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-12-08 09:37:13,266 - __main__ - ERROR - Failed to log action into App5: Test error
+2023-12-08 09:37:13,268 - __main__ - INFO - PASS: Logged action into App5: test_action
+2023-12-08 09:54:44,189 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2023-12-08 09:54:44,486 - paramiko.transport - INFO - Authentication (password) successful!
+2023-12-08 09:54:44,486 - root - INFO - 2023-12-08 09:54:44 - PASS: Connected to SFTP server
+2023-12-08 09:54:45,077 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2023-12-08 09:54:45,084 - root - INFO - 2023-12-08 09:54:45 - PASS: Received app2_payload.json from SFTP server and saved as app3_payload.json
+2023-12-08 09:54:45,084 - root - INFO - 2023-12-08 09:54:45 - PASS: Payload integrity verified: Hash matches.
+2023-12-08 09:54:45,087 - root - INFO - 2023-12-08 09:54:45 - PASS: Saved decoded payload to app3_payload.json
+2023-12-08 09:54:54,494 - root - INFO - 2023-12-08 09:54:54 - Decoded payload sent via email to team members.
+2023-12-08 09:54:54,497 - root - ERROR - 2023-12-08 09:54:54 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/Sent_decoded_payload_via_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5c8302dd80>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-12-08 09:55:06,103 - paramiko.transport.sftp - INFO - [chan 0] sftp session closed.
+2023-12-08 09:55:44 - PASS: Logged action into App5: retrieve_json
+2023-12-08 09:55:44 - PASS: Saved JSON payload to a file
+2023-12-08 09:55:44 - PASS: Logged action into App5: send_json_to_app2_success
+2023-12-08 09:55:44 - PASS: Logged action into App5: Received_JSON_from_App1
+2023-12-08 09:55:44 - PASS: Saved JSON payload and hash to a file
+Connected (version 2.0, client OpenSSH_8.9p1)
+Authentication (password) successful!
+[chan 0] Opened sftp connection (server version 3)
+2023-12-08 09:55:44 - PASS: Sent JSON payload and hash to App3 via SFTP
+2023-12-08 09:56:45 - PASS: Logged action into App5: Sent_JSON_to_App3
+[chan 0] sftp session closed.
+2023-12-08 09:58:00,400 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2023-12-08 09:58:00,644 - paramiko.transport - INFO - Authentication (password) successful!
+2023-12-08 09:58:00,644 - root - INFO - 2023-12-08 09:58:00 - PASS: Connected to SFTP server
+2023-12-08 09:58:01,159 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2023-12-08 09:58:01,165 - root - INFO - 2023-12-08 09:58:01 - PASS: Received app2_payload.json from SFTP server and saved as app3_payload.json
+2023-12-08 09:58:01,165 - root - INFO - 2023-12-08 09:58:01 - PASS: Payload integrity verified: Hash matches.
+2023-12-08 09:58:01,166 - root - INFO - 2023-12-08 09:58:01 - PASS: Saved decoded payload to app3_payload.json
+2023-12-08 09:58:08,409 - root - INFO - 2023-12-08 09:58:08 - Decoded payload sent via email to team members.
+2023-12-08 09:58:08,415 - root - INFO - 2023-12-08 09:58:08 - PASS: Logged action into App5: Sent_decoded_payload_via_email
+2023-12-08 09:58:20,788 - paramiko.transport.sftp - INFO - [chan 0] sftp session closed.
+2023-12-08 09:58:20,788 - root - INFO - 2023-12-08 09:58:20 - PASS: Closing SFTP connection
+2023-12-08 12:38:07 - PASS: Logged action into App5: retrieve_json
+2023-12-08 12:38:07 - PASS: Saved JSON payload to a file
+2023-12-08 12:38:07 - PASS: Logged action into App5: send_json_to_app2_success
+2023-12-08 12:38:07 - PASS: Logged action into App5: Received_JSON_from_App1
+2023-12-08 12:38:07 - PASS: Saved JSON payload and hash to a file
+Connected (version 2.0, client OpenSSH_8.9p1)
+Authentication (password) successful!
+[chan 0] Opened sftp connection (server version 3)
+2023-12-08 12:38:07 - PASS: Sent JSON payload and hash to App3 via SFTP
+2023-12-08 12:38:37 - PASS: Logged action into App5: Sent_JSON_to_App3
+[chan 0] sftp session closed.
+2023-12-08 12:39:50,210 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2023-12-08 12:39:50,456 - paramiko.transport - INFO - Authentication (password) successful!
+2023-12-08 12:39:50,456 - root - INFO - 2023-12-08 12:39:50 - PASS: Connected to SFTP server
+2023-12-08 12:39:50,961 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2023-12-08 12:39:50,966 - root - INFO - 2023-12-08 12:39:50 - PASS: Received app2_payload.json from SFTP server and saved as app3_payload.json
+2023-12-08 12:39:50,966 - root - INFO - 2023-12-08 12:39:50 - PASS: Payload integrity verified: Hash matches.
+2023-12-08 12:39:50,967 - root - INFO - 2023-12-08 12:39:50 - PASS: Saved decoded payload to app3_payload.json
+2023-12-08 12:40:22,010 - root - INFO - 2023-12-08 12:40:22 - Decoded payload sent via email to team members.
+2023-12-08 12:40:22,015 - root - INFO - 2023-12-08 12:40:22 - PASS: Logged action into App5: Sent_decoded_payload_via_email
+2023-12-08 12:41:15,713 - paramiko.transport.sftp - INFO - [chan 0] sftp session closed.
+2023-12-08 12:41:15,714 - root - INFO - 2023-12-08 12:41:15 - PASS: Closing SFTP connection
+2023-12-08 12:43:30 - PASS: Logged action into App5: send_json_to_app2_success
+2023-12-08 12:43:36 - Failed to log action into App5: Failed to connect
+2023-12-08 12:43:36 - PASS: Logged action into App5: Test action
+2023-12-08 12:43:42,483 - root - INFO - 2023-12-08 12:43:42 - Decoded payload sent via email to team members.
+2023-12-08 12:43:42,485 - root - ERROR - 2023-12-08 12:43:42 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/Sent_decoded_payload_via_email (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f33d6a29270>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-12-08 12:43:42,487 - __main__ - ERROR - Failed to log action into App5: Test error
+2023-12-08 12:43:42,488 - __main__ - INFO - PASS: Logged action into App5: test_action
+2023-12-08 13:44:21,183 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2023-12-08 13:44:21,335 - paramiko.transport - INFO - Authentication (password) successful!
+2023-12-08 13:44:21,336 - root - INFO - 2023-12-08 13:44:21 - PASS: Connected to SFTP server
+2023-12-08 13:44:21,893 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2023-12-08 13:44:21,903 - root - INFO - 2023-12-08 13:44:21 - PASS: Received app2_payload.json from SFTP server and saved as app3_payload.json
+2023-12-08 13:44:21,903 - root - INFO - 2023-12-08 13:44:21 - PASS: Payload integrity verified: Hash matches.
+2023-12-08 13:44:21,908 - root - INFO - 2023-12-08 13:44:21 - PASS: Saved decoded payload to app3_payload.json
+2023-12-08 13:44:31,825 - root - INFO - 2023-12-08 13:44:31 - Decoded payload sent via email to team members.
+2023-12-08 13:44:31,832 - root - INFO - 2023-12-08 13:44:31 - PASS: Logged action into App5: Sent_decoded_payload_via_email
+2023-12-08 13:46:11,880 - paramiko.transport.sftp - INFO - [chan 0] sftp session closed.
+2023-12-08 13:46:11,880 - root - INFO - 2023-12-08 13:46:11 - PASS: Closing SFTP connection
+2023-12-08 21:28:24 - Failed to log action into App5: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /log/app2_error (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0ca1a2abc0>: Failed to establish a new connection: [Errno 111] Connection refused'))
