@@ -1,0 +1,33 @@
+# Project: JSON Refrigerator
+# Purpose Details:
+# Course: IST 411
+# Author: Dhruvesh Patel
+# Date Developed: 09/01/2023
+# Last Date Changed:
+# Rev: 1.0
+
+import json
+
+class Refrigerator
+            def _init_(self,brand,model,capacity,color,doortypes, App Compatible, Works With, price)
+                    self.brand = brand
+                    self.model = model
+                    self.capacity = capacity
+                    self.color = color
+                    self.doortypes doortypes
+                    self.price = price
+		    self.Works With = Works With
+                    self.App Compatible =  App Compatible
+ 
+  refrigertor = Refrigerator(
+	brand = "LG"
+	model = "LRFLC2706S"
+	capacity = "26.5 cubic feet"
+	color = "Stainless Steel"
+	doortypes = "3"
+	Works With = ["Amazon Alexa"," Google Assistant"]
+	App Compatible = "Yes"
+	price = "$ 1899.99"
+)
+
+json_data = json.dumps(refrigertor. dict indent=4)

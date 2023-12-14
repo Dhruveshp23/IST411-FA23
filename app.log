@@ -1,0 +1,62 @@
+Connected (version 2.0, client OpenSSH_8.9p1)
+Authentication (password) failed.
+2023-10-29 14:02:51 - App3 encountered an error: Authentication failed.
+2023-10-29 14:08:24 - App3 encountered an error: name 'cinfo' is not defined
+2023-10-29 14:17:37 - App3 encountered an error: No hostkey for host 172.29.135.40 found.
+2023-10-29 14:21:18 - App3 encountered an error: No hostkey for host 172.29.135.40 found.
+2023-10-29 15:00:30 - PASS: Retrieving JSON payload from the internet
+2023-10-29 15:00:29 - PASS: Logged action into MongoDB: Retrieving JSON payload from the internet
+2023-10-29 15:00:29 - PASS: Logged action into MongoDB: Saved JSON payload to a file
+2023-10-29 15:00:29 - PASS: Logged action into MongoDB: Sent JSON payload to App2
+2023-10-29 15:00:29 - PASS: Saved JSON payload to a file
+2023-10-29 15:00:30 - PASS: Sent JSON payload to App2
+2023-10-29 15:00:30 - PASS: Logged action into MongoDB: Received JSON payload from App1
+2023-10-29 15:00:30 - PASS: Saved JSON payload and hash to a file
+Connected (version 2.0, client OpenSSH_8.9p1)
+Authentication (password) failed.
+2023-10-29 15:00:30 - Failed to send data to App3 via SFTP: Authentication failed.
+2023-10-29 15:04:22 - PASS: Retrieving JSON payload from the internet
+2023-10-29 15:04:22 - PASS: Logged action into MongoDB: Retrieving JSON payload from the internet
+2023-10-29 15:04:22 - PASS: Logged action into MongoDB: Saved JSON payload to a file
+2023-10-29 15:04:22 - PASS: Logged action into MongoDB: Sent JSON payload to App2
+2023-10-29 15:04:22 - PASS: Saved JSON payload to a file
+2023-10-29 15:04:22 - PASS: Sent JSON payload to App2
+2023-10-29 15:04:22 - PASS: Logged action into MongoDB: Received JSON payload from App1
+2023-10-29 15:04:22 - PASS: Saved JSON payload and hash to a file
+Connected (version 2.0, client OpenSSH_8.9p1)
+Authentication (password) failed.
+2023-10-29 15:04:22 - Failed to send data to App3 via SFTP: Authentication failed.
+2023-10-29 15:09:32 - PASS: Retrieving JSON payload from the internet
+2023-10-29 15:09:32 - PASS: Logged action into MongoDB: Retrieving JSON payload from the internet
+2023-10-29 15:09:32 - PASS: Logged action into MongoDB: Saved JSON payload to a file
+2023-10-29 15:09:32 - PASS: Logged action into MongoDB: Sent JSON payload to App2
+2023-10-29 15:09:32 - PASS: Saved JSON payload to a file
+2023-10-29 15:09:32 - PASS: Sent JSON payload to App2
+2023-10-29 15:09:32 - PASS: Logged action into MongoDB: Received JSON payload from App1
+2023-10-29 15:09:32 - PASS: Saved JSON payload and hash to a file
+Connected (version 2.0, client OpenSSH_8.9p1)
+Authentication (password) failed.
+2023-10-29 15:09:32 - Failed to send data to App3 via SFTP: Authentication failed.
+2023-10-29 15:13:14 - PASS: Retrieving JSON payload from the internet
+2023-10-29 15:13:13 - PASS: Logged action into MongoDB: Retrieving JSON payload from the internet
+2023-10-29 15:13:13 - PASS: Logged action into MongoDB: Saved JSON payload to a file
+2023-10-29 15:13:13 - PASS: Logged action into MongoDB: Sent JSON payload to App2
+2023-10-29 15:13:13 - PASS: Saved JSON payload to a file
+2023-10-29 15:13:14 - PASS: Sent JSON payload to App2
+2023-10-29 15:13:14 - PASS: Logged action into MongoDB: Received JSON payload from App1
+2023-10-29 15:13:14 - PASS: Saved JSON payload and hash to a file
+Connected (version 2.0, client OpenSSH_8.9p1)
+Authentication (password) failed.
+2023-10-29 15:13:14 - Failed to send data to App3 via SFTP: Authentication failed.
+2023-12-07 17:13:10 - PASS: Retrieving JSON payload from the internet
+2023-12-07 17:13:10 - PASS: Logged action into MongoDB: Retrieving JSON payload from the internet
+2023-12-07 17:13:10 - PASS: Logged action into MongoDB: Saved JSON payload to a file
+2023-12-07 17:13:10 - PASS: Logged action into MongoDB: Sent JSON payload to App2
+2023-12-07 17:13:10 - PASS: Saved JSON payload to a file
+2023-12-07 17:13:10 - PASS: Sent JSON payload to App2
+2023-12-08 07:46:05 - PASS: Retrieving JSON payload from the internet
+2023-12-08 07:46:05 - PASS: Logged action into MongoDB: Retrieving JSON payload from the internet
+2023-12-08 07:46:05 - PASS: Logged action into MongoDB: Saved JSON payload to a file
+2023-12-08 07:46:05 - PASS: Logged action into MongoDB: Sent JSON payload to App2
+2023-12-08 07:46:05 - PASS: Saved JSON payload to a file
+2023-12-08 07:46:05 - PASS: Sent JSON payload to App2
